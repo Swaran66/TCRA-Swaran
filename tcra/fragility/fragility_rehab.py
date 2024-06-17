@@ -1,11 +1,11 @@
-
-def rehab_fragility_curves(rr):
 """
 The tsnet.simulation.main module contains function to perform
 the workflow of read, discretize, initial, and transient
 simulation for the given .inp file.
 
 """
+def rehab_fragility_curves(rr):
+
 
     return {
         'MSF1': {
