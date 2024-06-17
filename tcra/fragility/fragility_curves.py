@@ -1,18 +1,13 @@
-def get_fragility_curve(component_type, damage_state):
+def get_fragility_curve(component_type):
     """
-    Retrieve fragility curve parameters for a given component type
-    and damage state.
+    Retrieve fragility curve parameters for a given component type.
 
     Parameters:
     - component_type (str): Type of the component (e.g., 'MSF1', 'MMUH2')
-    - damage_state (str): Level of damage (e.g., 'Slight', 'Moderate')
-
+    
     Returns:
     - dict: Dictionary containing 'mu' (mean) and 'sigma' (standard deviation)
       for the specified component type and damage state.
-
-    Raises:
-    - KeyError: If the component type or damage state is not found in fragility_curves.
     """
     fragility_curves = {
         'MSF1': {
