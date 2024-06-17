@@ -5,6 +5,9 @@
 
 import os
 import sys
+sys.path.insert(0, os.path.abspath('../'))
+import tcra
+import shlex
 import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
@@ -19,7 +22,7 @@ release = '0.0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # Add the project root directory to the system path
-sys.path.insert(0, os.path.abspath('../'))
+
 
 extensions = [
     'sphinx.ext.autodoc',
