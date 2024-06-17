@@ -5,11 +5,14 @@ simulation for the given .inp file.
 
 """
 
-fragility_curves_epn = {
-    'PW': {
-        'Fail': {'mu': 130.139, 'sigma': 0.1213}
-    },
-    'PS': {
-        'Fail': {'mu': 130.504, 'sigma': 0.1352}
+def get_fragility_curves():
+    fragility_curves_epn = {
+        'PW': {
+            'Fail': {'mu': 130.139, 'sigma': 0.1213}
+        },
+        'PS': {
+            'Fail': {'mu': 130.504, 'sigma': 0.1352}
+        }
     }
-}
+    return fragility_curves_epn
+
