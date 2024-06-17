@@ -113,21 +113,4 @@ def get_fragility_curve(component_type, damage_state):
         }
     }
 
-    try:
-        return fragility_curves[component_type][damage_state]
-    except KeyError:
-        raise KeyError(f"Fragility curve for {component_type} and damage state {damage_state} not found.")
-
-# Example usage:
-if __name__ == "__main__":
-    component_type = 'MSF1'
-    damage_state = 'Moderate'
-
-    try:
-        # Retrieve fragility parameters
-        parameters = get_fragility_curve(component_type, damage_state)
-        print(f"Fragility parameters for {component_type} ({damage_state} damage state):")
-        print(f"Mean (mu): {parameters['mu']}")
-        print(f"Standard Deviation (sigma): {parameters['sigma']}")
-    except KeyError as e:
-        print(e)
+    
