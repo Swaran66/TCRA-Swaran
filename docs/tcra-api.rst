@@ -4,7 +4,7 @@
 API documentation
 =================
 
-.. automodule:: wntr
+.. automodule:: tcra
     :no-members:
     :no-undoc-members:
     :no-inherited-members:
@@ -16,12 +16,6 @@ API documentation
         :recursive:
         :template: autosummary/module.rst
     
-        wntr.epanet
-        wntr.gis
-        wntr.graphics
-        wntr.metrics
-        wntr.morph
-        wntr.network
-        wntr.scenario
-        wntr.sim
-        wntr.utils
+        tcra.fragility
+        tcra.simulation
+        
