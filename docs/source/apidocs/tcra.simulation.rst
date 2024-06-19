@@ -7,7 +7,7 @@ Submodules
 tcra.simulation.damageanalysis module
 ----------------------------------
 
-.. automodule:: tcra.simulation.damageanalysis
+.. automodule:: tcra.simulation.simulation_damageanalysis
     :members:
     :undoc-members:
     :show-inheritance:
@@ -15,7 +15,7 @@ tcra.simulation.damageanalysis module
 tcra.simulation.hurricane module
 ----------------------------
 
-.. automodule:: tcra.simulation.hurricane
+.. automodule:: tcra.simulation.simulation_hurricane
     :members:
     :undoc-members:
     :show-inheritance:
@@ -23,7 +23,7 @@ tcra.simulation.hurricane module
 tcra.simulation.interactive module
 ------------------------------
 
-.. automodule:: tcra.simulation.interactive
+.. automodule:: tcra.simulation.simulation_interactive
     :members:
     :undoc-members:
     :show-inheritance:
@@ -31,7 +31,7 @@ tcra.simulation.interactive module
 tcra.simulation.plot module
 ------------------------------
 
-.. automodule:: tcra.simulation.plot
+.. automodule:: tcra.simulation.simulation_plot
     :members:
     :undoc-members:
     :show-inheritance:
