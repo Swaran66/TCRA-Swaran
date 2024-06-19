@@ -4,7 +4,7 @@ tcra.simulation package
 Submodules
 ----------
 
-tcra.simulation.damageanalysis module
+tcra.simulation.simulation_damageanalysis module
 ----------------------------------
 
 .. automodule:: tcra.simulation.simulation_damageanalysis
