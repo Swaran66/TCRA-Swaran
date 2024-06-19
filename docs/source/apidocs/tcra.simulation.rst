@@ -1,46 +1,39 @@
 tcra.simulation package
 ========================
 
+This package includes modules for handling fragility curves and estimating damage probabilities for buildings based on given data.
+
 Submodules
 ----------
 
-tcra.simulation.simulation_damageanalysis module
-----------------------------------
+tcra.simulation.damageanalysis module
+--------------------------------------
 
-.. automodule:: tcra.simulation.simulation_damageanalysis
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. literalinclude:: ../../tcra/simulation/simulation_damageanalysis.py
+    :language: python
+    :linenos:
+    :lines: 1-100
 
 tcra.simulation.hurricane module
-----------------------------
+--------------------------------------
 
-.. automodule:: tcra.simulation.simulation_hurricane
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. literalinclude:: ../../tcra/simulation/simulation_hurricane.py
+    :language: python
+    :linenos:
+    :lines: 1-100
 
 tcra.simulation.interactive module
-------------------------------
+--------------------------------------
 
-.. automodule:: tcra.simulation.simulation_interactive
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. literalinclude:: ../../tcra/simulation/simulation_interactive.py
+    :language: python
+    :linenos:
+    :lines: 1-100
 
 tcra.simulation.plot module
-------------------------------
+--------------------------------------
 
-.. automodule:: tcra.simulation.simulation_plot
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: tcra.simulation
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. literalinclude:: ../../tcra/simulation/simulation_plot.py
+    :language: python
+    :linenos:
+    :lines: 1-100
