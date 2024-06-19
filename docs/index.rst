@@ -11,6 +11,7 @@ Welcome to TCRA's documentation!
    API documentation <apidocs/tcra>
    analysis
    example
+   tcra-api  
    reference
    ...
 
