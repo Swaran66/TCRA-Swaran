@@ -18,7 +18,6 @@ project = 'TCRA'
 copyright = '2024, Ram Krishna Mazumder'
 author = 'Ram Krishna Mazumder'
 release = '0.0.1'
-version = tsnet.__version__
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
