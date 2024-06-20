@@ -4,9 +4,7 @@ The tsnet.network.geometry read in the geometry defined by EPANet
 simulation later in tsnet.
 
 """
-import numpy as np
-import pandas as pd
-from scipy.stats import lognorm
+
 
 def generate_fragility_curve(mu, sigma, intensity):
     """Generate the fragility curve using log-normal distribution."""
