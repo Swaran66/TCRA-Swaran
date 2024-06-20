@@ -7,5 +7,3 @@ The tsnet.network package contains methods to define
 
 """
 
-from .topology import topology
-from .model import TransientModel
