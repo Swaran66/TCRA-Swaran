@@ -10,3 +10,4 @@ The tsnet.network package contains methods to define
 import numpy as np
 import pandas as pd
 from scipy.stats import lognorm
+import folium
