@@ -6,7 +6,6 @@
 import os
 import sys
 import glob
-import tcra
 import sphinx_rtd_theme
 
 # Ensure the project's root directory is in sys.path
