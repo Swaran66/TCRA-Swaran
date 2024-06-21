@@ -1,7 +1,0 @@
-numpy
-pandas
-folium
-scipy
-matplotlib
-sphinx
-sphinx_rtd_theme
