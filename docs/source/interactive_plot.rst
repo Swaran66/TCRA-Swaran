@@ -25,10 +25,10 @@ The following example demonstrates how to plot node damage data:
     >>> node_dmg = result_bldg.loc[:, 'dmg']
     >>> # Plot damage map
     >>> map = plot_interactive_map(node, node_dmg, node_size=5, node_cmap_bins='cut')
-    >>> map.save('interactive_map.png')
+    >>> map.save('interactive_plot.png')
 
 .. _fig-interactive-map:
-.. figure:: figures/interactive_map.png
+.. figure:: figures/interactive_plot.png
    :width: 640
    :alt: Interactive Map
    
@@ -39,5 +39,5 @@ The following example demonstrates how to plot node damage data:
     The interactive Folium map graphic is included below.
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="figures/interactive_map.png" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="figures/interactive_plot.png" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
