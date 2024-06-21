@@ -28,7 +28,7 @@ The following example demonstrates how to plot node damage data:
     >>> map.save('interactive_map.html')
 
 .. _fig-interactive-map:
-.. figure:: PATH_TO_YOUR_IMAGE/interactive_map.html
+.. figure:: docs/source/figures/interactive_map.html
    :width: 640
    :alt: Interactive Map
    
@@ -39,5 +39,5 @@ The following example demonstrates how to plot node damage data:
     The interactive Folium map graphic is included below.
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="PATH_TO_YOUR_HTML/interactive_map.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="docs/source/figures/interactive_map.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
