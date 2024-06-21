@@ -10,6 +10,7 @@ Welcome to TCRA's documentation!
    framework
    API documentation <apidocs/tcra>
    analysis
+   interactive_plot
    example
    reference
    ...
