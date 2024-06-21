@@ -36,8 +36,8 @@ The following example demonstrates how to plot node damage data:
    
 .. raw:: html
     
-    The interactive Folium map graphic is included below.
+    The interactive Leaflet network graphic is included below.
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="figures/interactive_plot.png" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="_static/interactive_plot.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
