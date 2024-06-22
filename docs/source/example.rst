@@ -197,12 +197,6 @@ Damage Simulation
         <iframe src="_static/interactive_plot.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-11. Functionality Results
--------------------------------
-.. figure:: figures/functionality.png
-   :scale: 25%
-   :alt: Logo
-
 
 Recovery Simulation
 -------------------
@@ -328,4 +322,11 @@ Recovery Simulation
 
 .. figure:: figures/blg_rehab_pf.png
    :scale: 25%
+   :alt: Logo
+
+
+Functionality Results
+-------------------------------
+.. figure:: figures/functionality.png
+   :scale: 50%
    :alt: Logo
