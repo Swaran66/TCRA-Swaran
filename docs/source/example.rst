@@ -193,8 +193,12 @@ Damage Simulation
         <iframe src="_static/interactive_plot.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+
 11. Plotting Interactive Map of Probability Failure
 -------------------
+
+.. code-block:: console
+
 
   # Plot Failure Probability
   node_pf=result_bldg.loc[0:,'pf']
