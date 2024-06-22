@@ -6,7 +6,7 @@ Subpackages
 
 .. toctree::
 
-    tcra.submodule
+    tcra.fragility
     
 
 Module contents
