@@ -28,40 +28,34 @@ tcra.fragility.fragility_rehab module
     :undoc-members:
     :show-inheritance:
 
-tcra.simulation package
-========================
-
-Submodules
-----------
-
-tcra.simulation.damageanalysis module
+tcra.fragility.damageanalysis module
 ----------------------------------
 
-.. automodule:: tcra.simulation.damageanalysis
+.. automodule:: tcra.fragility.damageanalysis
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.simulation.hurricane module
+tcra.fragility.hurricane module
 ----------------------------
 
-.. automodule:: tcra.simulation.hurricane
+.. automodule:: tcra.fragility.hurricane
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.simulation.interactive module
+tcra.fragility.interactive module
 ------------------------------
 
-.. automodule:: tcra.simulation.interactive
+.. automodule:: tcra.fragility.interactive
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.simulation.plot module
+tcra.fragility.plot module
 ------------------------------
 
-.. automodule:: tcra.simulation.plot
+.. automodule:: tcra.fragility.plot
     :members:
     :undoc-members:
     :show-inheritance:
