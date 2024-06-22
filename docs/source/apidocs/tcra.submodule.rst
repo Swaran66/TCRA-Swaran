@@ -4,58 +4,58 @@ tcra.submodule package
 Submodules
 ----------
 
-tcra.submodule.fragility_curves module
+tcra.fragility.fragility_curves module
 ----------------------------------
 
-.. automodule:: tcra.submodule.fragility_curves
+.. automodule:: tcra.fragility.fragility_curves
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.fragility_curves_epn module
+tcra.fragility.fragility_curves_epn module
 ----------------------------
 
-.. automodule:: tcra.submodule.fragility_curves_epn
+.. automodule:: tcra.fragility.fragility_curves_epn
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.fragility_rehab module
+tcra.fragility.fragility_rehab module
 ------------------------------
 
-.. automodule:: tcra.submodule.fragility_rehab
+.. automodule:: tcra.fragility.fragility_rehab
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.damageanalysis module
+tcra.fragility.damageanalysis module
 ----------------------------------
 
-.. automodule:: tcra.submodule.damageanalysis
+.. automodule:: tcra.fragility.damageanalysis
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.hurricane module
+tcra.fragility.hurricane module
 ----------------------------
 
-.. automodule:: tcra.submodule.hurricane
+.. automodule:: tcra.fragility.hurricane
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.interactive module
+tcra.fragility.interactive module
 ------------------------------
 
-.. automodule:: tcra.submodule.interactive
+.. automodule:: tcra.fragility.interactive
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.submodule.plot module
+tcra.fragility.plot module
 ------------------------------
 
-.. automodule:: tcra.submodule.plot
+.. automodule:: tcra.fragility.plot
     :members:
     :undoc-members:
     :show-inheritance:
@@ -64,7 +64,7 @@ tcra.submodule.plot module
 Module contents
 ---------------
 
-.. automodule:: tcra.submodule
+.. automodule:: tcra.fragility
     :members:
     :undoc-members:
     :show-inheritance:
