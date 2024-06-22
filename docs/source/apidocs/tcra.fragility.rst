@@ -1,61 +1,61 @@
-tcra.fragility package
+tcra.submodule package
 ========================
 
 Submodules
 ----------
 
-tcra.fragility.fragility_curves module
+tcra.submodule.fragility_curves module
 ----------------------------------
 
-.. automodule:: tcra.fragility.fragility_curves
+.. automodule:: tcra.submodule.fragility_curves
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.fragility_curves_epn module
+tcra.submodule.fragility_curves_epn module
 ----------------------------
 
-.. automodule:: tcra.fragility.fragility_curves_epn
+.. automodule:: tcra.submodule.fragility_curves_epn
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.fragility_rehab module
+tcra.submodule.fragility_rehab module
 ------------------------------
 
-.. automodule:: tcra.fragility.fragility_rehab
+.. automodule:: tcra.submodule.fragility_rehab
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.damageanalysis module
+tcra.submodule.damageanalysis module
 ----------------------------------
 
-.. automodule:: tcra.fragility.damageanalysis
+.. automodule:: tcra.submodule.damageanalysis
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.hurricane module
+tcra.submodule.hurricane module
 ----------------------------
 
-.. automodule:: tcra.fragility.hurricane
+.. automodule:: tcra.submodule.hurricane
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.interactive module
+tcra.submodule.interactive module
 ------------------------------
 
-.. automodule:: tcra.fragility.interactive
+.. automodule:: tcra.submodule.interactive
     :members:
     :undoc-members:
     :show-inheritance:
 
-tcra.fragility.plot module
+tcra.submodule.plot module
 ------------------------------
 
-.. automodule:: tcra.fragility.plot
+.. automodule:: tcra.submodule.plot
     :members:
     :undoc-members:
     :show-inheritance:
@@ -64,7 +64,7 @@ tcra.fragility.plot module
 Module contents
 ---------------
 
-.. automodule:: tcra.fragility
+.. automodule:: tcra.submodule
     :members:
     :undoc-members:
     :show-inheritance:
