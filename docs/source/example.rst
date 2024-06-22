@@ -176,7 +176,7 @@ Damage Simulation
    :scale: 25%
    :alt: Log
 
-10. Plotting Interactive Map
+10. Plotting Interactive Map of Damage
 ---------------------
 
 .. code-block:: console
@@ -192,6 +192,9 @@ Damage Simulation
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="_static/interactive_plot.html" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
+11. Plotting Interactive Map of Probability Failure
+-------------------
 
   # Plot Failure Probability
   node_pf=result_bldg.loc[0:,'pf']
