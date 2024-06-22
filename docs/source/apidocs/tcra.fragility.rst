@@ -60,6 +60,30 @@ tcra.fragility.plot module
     :undoc-members:
     :show-inheritance:
 
+tcra.fragility.montecarlosimulation module
+------------------------------
+
+.. automodule:: tcra.fragility.montecarlosimulation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+tcra.fragility.Recovery module
+------------------------------
+
+.. automodule:: tcra.fragility.Recovery
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+tcra.fragility.fragility_rehab module
+------------------------------
+
+.. automodule:: tcra.fragility.fragility_rehab
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------
