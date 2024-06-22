@@ -33,6 +33,8 @@ TCRA is a Python package designed to perform scenario-based tropical cyclone ris
   from tcra.Plot import plot_scatter
   from tcra.Interactive import plot_interactive_map
 
+Damage Simulation
+-------------------
 
 1. Hurricane Track Import, Building Data Import, Estimating Peak Velocity
 ---------------------
@@ -123,10 +125,89 @@ TCRA is a Python package designed to perform scenario-based tropical cyclone ris
 
   plot_scatter(result_blg_damage, 'x', 'y', 'mph', save_path='wind_speed.png')
 
+.. figure:: figures/damage.png
+   :scale: 25%
+   :alt: Logo
 
-7. Functionality Results
+7. Plotting Damage State
+---------------------
+
+.. code-block:: console
+
+  plot_scatter(result_blg_damage, 'x', 'y', 'dmg', save_path='blg_dmg_states_unrehab.png')
+
+8. Monte-Carlo Simulation
+---------------------
+
+.. code-block:: console
+
+  # Libraries
+  import folium
+  import matplotlib.patches as mpatches
+  from scipy.spatial import distance
+  import collections
+  import concurrent.futures
+  from past.builtins import xrange
+  from typing import List
+  plot_scatter(result_blg_damage, 'x', 'y', 'dmg', save_path='blg_dmg_states_unrehab.png')
+
+  # Simulation Result
+  bldg_result=result_blg_damage 
+  damage_interval_keys=['DS0', 'DS1', 'DS2', 'DS3', 'DS4']
+  failure_state_keys=['DS3', 'DS4']
+  num_samples=10
+  seed=101
+  calculator = DamageProbabilityCalculator(failure_state_keys)
+  dt, ki = calculator.sample_damage_interval(bldg_result, damage_interval_keys, num_samples, seed)
+  # covert result to dataframe
+  df_bldg = pd.DataFrame({'id': ki,'pf': dt})
+
+9. Plotting Building Failure Through MCS
+---------------------
+
+.. code-block:: console
+
+  plot_scatter(result_bldg, 'x', 'y', 'pf', save_path='blg_Dmg.png')
+
+10. Plotting Interactive Map
+---------------------
+
+.. code-block:: console
+
+  # Plot Damage
+  node=result_bldg.loc[0:,'x': 'y']
+  node_dmg=result_bldg.loc[0:,'dmg']
+  #plot damage map
+  plot_interactive_map(node, node_dmg, node_size=5, node_cmap_bins='cut', node_cmap=None, link_cmap=None)
+
+  # Plot Failure Probability
+  node_pf=result_bldg.loc[0:,'pf']
+  plot_interactive_map(node, node_pf, node_size=5, node_cmap_bins='cut', node_cmap=None, link_cmap=None)
+
+11. Functionality Results
 -------------------------------
 .. figure:: figures/functionality.png
    :scale: 25%
    :alt: Logo
 
+
+Recovery Simulation
+-------------------
+
+1. Recovery Time
+-------------------------------
+
+.. code-block:: console
+
+  # Recovery Time
+  recovery_time = rep(result_bldg, 100)
+  result_bldg['RT'] = list(recovery_time)
+  bb = []
+  tt = list(range(0, 900, 5))
+  for T in tt:
+    bb.append(result_bldg[result_bldg.RT < T].shape[0])
+
+  result_bldg.RT.min(), round(result_bldg.RT.mean(),2), round(result_bldg.RT.max(),2)
+  bb=pd.Series(bb)/result_bldg.shape[0]
+
+  
