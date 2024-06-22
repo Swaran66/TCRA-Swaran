@@ -6,9 +6,6 @@ simulation for the given .inp file.
 """
 
 
-import folium
-import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
 
 def plot_scatter(plot_data, x_col, y_col, color_col, figsize=(4, 3), color_map=None, s=0.5, xlabel='longitude', ylabel='latitude', colorbar_label='pf', save_path=None):
     """
