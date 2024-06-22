@@ -115,7 +115,7 @@ Damage Simulation
 5. Summary Damage
 -------------------------------
 .. figure:: figures/damage.png
-   :scale: 25%
+   :scale: 50%
    :alt: Logo
 
 6. Plotting Wind Speed
@@ -126,7 +126,7 @@ Damage Simulation
   plot_scatter(result_blg_damage, 'x', 'y', 'mph', save_path='wind_speed.png')
 
 .. figure:: figures/wind_speed.png
-   :scale: 25%
+   :scale: 50%
    :alt: Logo
 
 7. Plotting Damage State
@@ -137,7 +137,7 @@ Damage Simulation
   plot_scatter(result_blg_damage, 'x', 'y', 'dmg', save_path='blg_dmg_states_unrehab.png')
 
 .. figure:: figures/blg_dmg_states_unrehab.png
-   :scale: 25%
+   :scale: 50%
    :alt: Log
 
 8. Monte-Carlo Simulation
@@ -173,7 +173,7 @@ Damage Simulation
   plot_scatter(result_bldg, 'x', 'y', 'pf', save_path='blg_Dmg.png')
 
 .. figure:: figures/blg_Dmg.png
-   :scale: 25%
+   :scale: 50%
    :alt: Log
 
 10. Plotting Interactive Map of Damage
@@ -243,7 +243,7 @@ Recovery Simulation
   plt.savefig('Buildings_Recovery.png', dpi=600, bbox_inches='tight')
 
 .. figure:: figures/Buildings_Recovery.png
-   :scale: 25%
+   :scale: 50%
    :alt: Logo
 
 3. Preparing Dataframe for Rehab Simulation
@@ -318,7 +318,7 @@ Recovery Simulation
   plot_scatter(result_rehab, 'x', 'y', 'dmg', save_path='blg_rehab_dmg.png')
 
 .. figure:: figures/blg_rehab_dmg.png
-   :scale: 25%
+   :scale: 50%
    :alt: Logo
 
 5. Plotting Rehabbed Buildings Failure Probability
@@ -329,7 +329,7 @@ Recovery Simulation
   plot_scatter(result_rehab, 'x', 'y', 'pf', save_path='blg_rehab_pf.png')
 
 .. figure:: figures/blg_rehab_pf.png
-   :scale: 25%
+   :scale: 50%
    :alt: Logo
 
 
